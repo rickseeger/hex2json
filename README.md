@@ -5,11 +5,13 @@ Command line tool to convert a bitcoin transaction from hex to JSON format. The 
 
 ## dependencies
 
-None. transactions.py has a deserialize function built in, taken from:
+### PyBitcoinTools
 
-https://raw.githubusercontent.com/vbuterin/pybitcointools/master/bitcoin/transaction.py
-
+> `$ git clone https://github.com/vbuterin/pybitcointools`  
+> `$ cd pybitcointools`  
+> `$ sudo python setup.py install`
 
 ## sample usage
 
 ![usage](images/usage.png "Usage")
+

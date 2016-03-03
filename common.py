@@ -1,6 +1,6 @@
 
 import sys, re, json 
-from transaction import deserialize
+from bitcoin.transaction import deserialize
 
 
 # converts hex to JSON string, returns None on failure
